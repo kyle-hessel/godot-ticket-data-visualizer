@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://rbitccgf0myc"]
+
+[ext_resource type="Script" path="res://scripts/ae_dashboard.gd" id="1_p1ftr"]
+
+[node name="AE_Dashboard" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_p1ftr")
+color_array = Array[Color]([Color(0.362893, 0.694309, 0.92099, 1), Color(0.894111, 0.265488, 0.305005, 1), Color(0.16165, 0.750796, 0.540625, 1), Color(0.848504, 0.538365, 0.986997, 1), Color(0.0993003, 0.738376, 0.722731, 1), Color(0.873824, 0.847488, 0.269387, 1), Color(0.922976, 0.499824, 0.25439, 1), Color(0.953621, 0.426416, 0.717871, 1), Color(0.787482, 0.77248, 0.202399, 1), Color(0.436403, 0.740489, 0.336527, 1)])
+
+[node name="ChartTitle" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -76.5
+offset_top = 30.0
+offset_right = 76.5
+offset_bottom = 65.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 25
+text = "Dataset Title"
+
+[node name="TextHolder" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
