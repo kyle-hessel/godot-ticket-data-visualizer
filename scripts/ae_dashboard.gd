@@ -5,6 +5,10 @@ class_name ae_dash
 
 signal data_parsed
 
+# NOTE: Add godot-csv-importer as a dependency (place in the addons/ folder) before using with AE CSV data.
+# Grab it here: https://github.com/timothyqiu/godot-csv-data-importer
+# This project is currently made with Godot 4.3 beta, but should work on older versions.
+
 #region global variable declarations
 @export var color_array: Array[Color]
 
